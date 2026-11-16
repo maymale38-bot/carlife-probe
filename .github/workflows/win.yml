@@ -1,8 +1,0 @@
-name: win
-on:
-  workflow_dispatch:
-jobs:
-  w:
-    runs-on: windows-latest
-    steps:
-      - run: echo hi-win
